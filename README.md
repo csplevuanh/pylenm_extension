@@ -15,16 +15,14 @@ The results are visualized through various plots, maps, and reports, contributin
 
 ## Code Description
 
-### 1. `Bidirectional_LSTM.ipynb`
-This notebook contains the implementation of a **Bidirectional LSTM** model for time series forecasting of contaminant concentrations. The LSTM architecture is designed to capture both past and future dependencies within the sequence data, making it effective for predicting future contaminant trends. The code includes:
-- Data preprocessing to generate input sequences.
-- Building and training a Bidirectional LSTM model using Keras.
-- Predictions for contaminant concentrations and generating visualizations to show performance.
+### 1. `Linear_Regression_+_Mapping.ipynb`
+This notebook applies **Linear Regression** to estimate the time-to-MCL for each analyte across different wells. It also includes visualization functionalities for mapping the concentration trends and spatial distribution of wells using geospatial libraries like Folium.
 
 **Key Features:**
-- Predicts future contaminant levels based on past data.
-- Includes mechanisms for avoiding overfitting through dropout and early stopping.
-- Model evaluation using MSE and R² metrics.
+- Linear regression for predicting time-to-MCL.
+- Confidence intervals for predictions using statistical methods.
+- Geospatial visualization of well locations and contaminant trends using Folium maps.
+- Outlier removal for ensuring accurate trends.
 
 ### 2. `Random_Forest_Regression.ipynb`
 This notebook introduces a **Random Forest Regression** model to analyze the factors affecting the heterogeneity in the time required for contaminants to reach regulatory safety standards. The model identifies critical variables, such as well depth, aquifer characteristics, and geographical factors.
@@ -35,14 +33,16 @@ This notebook introduces a **Random Forest Regression** model to analyze the fac
 - Evaluating model performance using Mean Squared Error (MSE) and R² scores.
 - Feature importance plots to highlight the factors impacting contaminant attenuation.
 
-### 3. `Linear_Regression_+_Mapping.ipynb`
-This notebook applies **Linear Regression** to estimate the time-to-MCL for each analyte across different wells. It also includes visualization functionalities for mapping the concentration trends and spatial distribution of wells using geospatial libraries like Folium.
+### 3. `Bidirectional_LSTM.ipynb`
+This notebook contains the implementation of a **Bidirectional LSTM** model for time series forecasting of contaminant concentrations. The LSTM architecture is designed to capture both past and future dependencies within the sequence data, making it effective for predicting future contaminant trends. The code includes:
+- Data preprocessing to generate input sequences.
+- Building and training a Bidirectional LSTM model using Keras.
+- Predictions for contaminant concentrations and generating visualizations to show performance.
 
 **Key Features:**
-- Linear regression for predicting time-to-MCL.
-- Confidence intervals for predictions using statistical methods.
-- Geospatial visualization of well locations and contaminant trends using Folium maps.
-- Outlier removal for ensuring accurate trends.
+- Predicts future contaminant levels based on past data.
+- Includes mechanisms for avoiding overfitting through dropout and early stopping.
+- Model evaluation using MSE and R² metrics.
 
 ## Manuscript Summary
 
@@ -80,7 +80,7 @@ The accompanying manuscript, titled _"Extension of PyLEnM: Machine Learning Algo
 
 ### Running the Notebooks:
 
-#### 3. **Linear Regression and Mapping**:
+#### 1. **Linear Regression and Mapping**:
 - Open the `Linear_Regression_+_Mapping.ipynb` file in Jupyter Notebook.
 - Run the notebook to predict the time-to-MCL using linear regression and visualize the results on a map.
 
