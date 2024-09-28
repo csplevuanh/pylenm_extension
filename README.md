@@ -80,17 +80,17 @@ The accompanying manuscript, titled _"Extension of PyLEnM: Machine Learning Algo
 
 ### Running the Notebooks:
 
-#### 1. **Bidirectional LSTM Model**:
-- Open the `Bidirectional_LSTM.ipynb` file in Jupyter Notebook.
-- Run the notebook to train the LSTM model on your dataset and generate predictions for contaminant concentrations.
+#### 3. **Linear Regression and Mapping**:
+- Open the `Linear_Regression_+_Mapping.ipynb` file in Jupyter Notebook.
+- Run the notebook to predict the time-to-MCL using linear regression and visualize the results on a map.
 
 #### 2. **Random Forest Regression**:
 - Open the `Random_Forest_Regression.ipynb` file in Jupyter Notebook.
 - Run the notebook to train a Random Forest model and identify important factors affecting contaminant attenuation.
 
-#### 3. **Linear Regression and Mapping**:
-- Open the `Linear_Regression_+_Mapping.ipynb` file in Jupyter Notebook.
-- Run the notebook to predict the time-to-MCL using linear regression and visualize the results on a map.
+#### 3. **Bidirectional LSTM Model**:
+- Open the `Bidirectional_LSTM.ipynb` file in Jupyter Notebook.
+- Run the notebook to train the LSTM model on your dataset and generate predictions for contaminant concentrations.
 
 ## Citation
 If you use this work, please cite:
