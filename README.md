@@ -71,3 +71,41 @@ The accompanying manuscript, titled _"Extension of PyLEnM: Machine Learning Algo
    ```bash
    git clone https://github.com/your-username/contaminant-attuation-prediction.git
    cd contaminant-attuation-prediction
+   ```
+
+2. Install the required Python packages:
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+### Running the Notebooks:
+
+#### 1. **Bidirectional LSTM Model**:
+- Open the `Bidirectional_LSTM.ipynb` file in Jupyter Notebook.
+- Run the notebook to train the LSTM model on your dataset and generate predictions for contaminant concentrations.
+
+#### 2. **Random Forest Regression**:
+- Open the `Random_Forest_Regression.ipynb` file in Jupyter Notebook.
+- Run the notebook to train a Random Forest model and identify important factors affecting contaminant attenuation.
+
+#### 3. **Linear Regression and Mapping**:
+- Open the `Linear_Regression_+_Mapping.ipynb` file in Jupyter Notebook.
+- Run the notebook to predict the time-to-MCL using linear regression and visualize the results on a map.
+
+### Example Usage:
+For detailed instructions on how to use each model, refer to the individual notebooks. Each notebook is designed to be self-contained and includes comments to guide you through the code.
+
+### Citation
+If you use this work, please cite:
+
+**Vu Anh Le, Haruko Murakami Wainwright, Hansell Gonzalez-Raymat, Carol Eddy-Dilek**, _Extension of PyLEnM: Machine Learning Algorithms to Assess Site Closure Time Frames for Soil and Groundwater Contamination_.
+
+### Acknowledgments
+This project is supported by the Massachusetts Institute of Technology, the Savannah River National Laboratory, and the MIT Summer Research Program. Special thanks to Professor Haruko Murakami Wainwright for her guidance and support throughout the project.
+
+### Instructions:
+1. Copy and paste the above content into a new `README.md` file in your GitHub repository.
+2. Adjust the repository link (currently `https://github.com/your-username/contaminant-attuation-prediction.git`) and author details as necessary.
+3. Push the changes to your GitHub repository.
+
+Once uploaded, this markdown file will be rendered properly on GitHub, providing a detailed overview and instructions for your project.
