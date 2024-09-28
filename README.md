@@ -98,11 +98,4 @@ If you use this work, please cite:
 **Vu Anh Le, Haruko Murakami Wainwright, Hansell Gonzalez-Raymat, Carol Eddy-Dilek**, _Extension of PyLEnM: Machine Learning Algorithms to Assess Site Closure Time Frames for Soil and Groundwater Contamination_.
 
 ## Acknowledgments
-This project is supported by the Massachusetts Institute of Technology, the Savannah River National Laboratory, and the MIT Summer Research Program. Special thanks to Professor Haruko Murakami Wainwright for her guidance and support throughout the project.
-
-## Instructions:
-1. Copy and paste the above content into a new `README.md` file in your GitHub repository.
-2. Adjust the repository link (currently `https://github.com/your-username/contaminant-attuation-prediction.git`) and author details as necessary.
-3. Push the changes to your GitHub repository.
-
-Once uploaded, this markdown file will be rendered properly on GitHub, providing a detailed overview and instructions for your project.
+This project is supported by the Massachusetts Institute of Technology, the ALTEMIS Project at the Department of Energy, and the MIT Summer Research Program.
